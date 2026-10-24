@@ -6,6 +6,12 @@ export default defineConfig({
     include: /src\/.*\.[jt]sx?$/,
     exclude: [],
   },
+  optimizeDeps: {
+    entries: ['index.html'],
+    esbuildOptions: {
+      loader: { '.js': 'jsx' },
+    },
+  },
   server: {
     host: '127.0.0.1',
   },
