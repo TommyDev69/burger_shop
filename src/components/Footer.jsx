@@ -57,7 +57,7 @@ export default function Footer() {
          <div class="copyright">
             <div class="container">
                 <p>Copyright &copy; <a href="https://stack-profile.vercel.app/">SUNNEVIAN</a>, All Right Reserved.</p>
-                <p>Designed By <a href="https://htmlcodex.com">Tommydev69</a></p>
+                <p>Designed By <a href="https://stack-profile.vercel.app/">Tommydev69</a></p>
             </div>
           </div>
       </footer>
