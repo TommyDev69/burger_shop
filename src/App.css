@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yarndings+20&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.ingredient {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 50px;
+  font-weight: bold;
+
+}
+
+.togButton {
+  background-color: #fbaf32;
+}
+
+.butin {
+  margin-top: 30px;
+}
+
+.NavLabel {
+  font-size: 18px;
+  color: white;
+}
+
+.NavLabel:hover {
+  color: #fbaf32;
+}
+
+.navHead {
+  position: relative;
+  transition: .5s;
+  z-index: 999;
+  /* position: fixed; */
+  /* top: 0; */
+  /* width: 100%; */
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, .3); */
+
+}
+
+/* .NavPosition {
+ position: fixed; 
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+} */
+
+@media (min-width: 992px) {
+  .navHead {
+    position: absolute;
+    width: 100%;
+    padding:25px 60px;
+    background: transparent !important;
+    z-index: 9;
+  }
+}
+
+.viewMenu {
+  font-size: 18px center;
+  background-color: #fbaf32;
+  width: 15%;
+  height: 70px;
+  margin-left: 30%;
+  border: none;
+  font-weight: bold;
+
+}
+
+.viewMenu:hover {
+  color: #fbaf32;
+  border: 2px solid #fbaf32;
+  background-color: transparent;
+  font-weight: bolder;
+  font-weight: bold;
+
+}
+
+.viewTableButton {
+  font-size: 18px center;
+  background-color: #719a0a;
+  width: 15%;
+  height: 70px;
+  margin-left: 1%;
+  border: none;
+  font-weight: bold;
+
+}
+
+.viewTableButton:hover {
+  color: #719a0a;
+  border: 2px solid #719a0a;
+  background-color: transparent;
+  font-weight: bolder;
+  font-weight: bold;
+
+}
+
+#collapsible-nav-dropdown {
+  color: white;
+  font-size: 18px;
+  margin-left: 12px;
+
+}
+
+#collapsible-nav-dropdown:hover {
+  color: #000000;
+}
+
+#BurgarLogo {
+  height: 70px;
+  width: 100%;
+}
+
+.togButton {
+  margin-right: 6%;
+  border: 2px solid #ffffff;
+}
+
+.caurosel {
+  background-image: url(../src/Images/blackD.jpg);
+  height: 600px;
+  width: 100%;
+  background-size: contain;
+}
+
+.Caurosel-image{
+  height: 600px;
+   width: 100%;
+    z-index:1;
+     background-size: contain;
+     opacity:0.4
+}

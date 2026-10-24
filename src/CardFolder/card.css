@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yarndings+20&display=swap');
+
+#fullCardBody{
+    /* width: 30rem; */
+    border: 2px solid #fdaf32; 
+    border-radius:20px;
+    /* margin:15px 0px 0px 14%; */
+    box-shadow: inset #fdaf32 12px 3px 45px 3px;
+    
+}
+
+.off{
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.instrution{
+  padding:0px 0px 0px 50px;
+  font-size:16px;
+  font-weight: bold;
+}
+
+.viewMenuCard{
+  font-size: 18px;
+  background-color: #fbaf32;
+  width:18vh;
+  height:50px;
+  border: none;
+  font-weight:bold;
+
+} 
+
+.viewMenuCard:hover{
+  color: #fbaf32;
+  border: 2px solid #fbaf32;
+  background-color: transparent;
+  font-weight:bolder;
+  font-weight:bold;
+
+}
+
+.sweet-warning{
+  background-color: #fbaf32;
+  
+ }
+ 
+ .sweet-warning:not([disabled]):hover{
+  color: #ffffff;
+  background-color: #719a0a;
+  font-weight: bold;
+ }
+
+ .thankYou{
+  background-color: green;
+ }
